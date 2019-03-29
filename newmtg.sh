@@ -124,7 +124,5 @@ elif (( ${#} == 2 )) ; then  # Correct number of arguments
 			;;
 	esac
 	# Course work revision control system
-	if [ -d ../.git ] ; then  # Using git for revision control
-		git add "${dir}"
-	fi
+	git status -s 2> /dev/null && git add "${dir}"  # Using git for revision control
 fi
