@@ -140,7 +140,7 @@
                 'homework' => 'lhomework.html',
                 'reading' => 'lreading.html',
                 'notes' => 'lnotes.html',
-                'lab-solution' => 'llabanswers.html',
+                'lab-solution' => 'labanswers.html',
                 'homework-solution' => 'lanswers.html');
 
   # Which items should be handled as pdfs,
